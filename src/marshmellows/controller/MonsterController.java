@@ -15,7 +15,7 @@ public class MonsterController
 		double hair = .6;
 		int noses = 1;
 		boolean hasBellyButton = true;
-		String name = "Little Duckling";
+		String name = "Dr.VanNostran";
 		
 		myOutput = new MarshmellowOutput();
 		tristanMonster = new MarshmellowMonster(name, eyes, noses, hair, legs, hasBellyButton);
