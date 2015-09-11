@@ -16,9 +16,10 @@ public class MonsterController
 		int noses = 1;
 		boolean hasBellyButton = true;
 		String name = "Dr.VanNostran";
+		String biography = "My monster grew up in a village outside of Atlantis";
 		
 		myOutput = new MarshmellowOutput();
-		tristanMonster = new MarshmellowMonster(name, eyes, noses, hair, legs, hasBellyButton);
+		tristanMonster = new MarshmellowMonster(biography, name, eyes, noses, hair, legs, hasBellyButton);
 	}
 	
 	public void start()
