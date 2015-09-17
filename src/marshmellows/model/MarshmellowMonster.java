@@ -2,7 +2,6 @@ package marshmellows.model;
 
 public class MarshmellowMonster
 {
-	private String monsterBio;
 	private String monsterName;
 	private int monsterEyes;
 	private int monsterNoses;
@@ -16,9 +15,8 @@ public class MarshmellowMonster
 		
 	}
 	
-	public MarshmellowMonster(String monsterBio, String monsterName, int monsterEyes, int monsterNoses, double monsterHair, double monsterLegs, boolean monsterBellyButton)
+	public MarshmellowMonster( String monsterName, int monsterEyes, int monsterNoses, double monsterHair, double monsterLegs, boolean monsterBellyButton)
 	{
-		this.monsterBio = monsterBio;
 		this.monsterName = monsterName;
 		this.monsterEyes = monsterEyes;
 		this.monsterNoses = monsterNoses;
