@@ -23,14 +23,14 @@ public class MonsterController
 		
 		monsterScanner = new Scanner(System.in);
 		myOutput = new MarshmellowOutput();
-		tristanMonster = new MarshmellowMonster(biography, name, eyes, noses, hair, legs, hasBellyButton);
+		tristanMonster = new MarshmellowMonster(name, eyes, noses, hair, legs, hasBellyButton);
 	}
 	
 	public void start()
 	{
 		myOutput.displayMonsterInfo(tristanMonster.toString());
-		askQuestions();
-		myOutput.displayMonsterInfo("New Monster info" + tristanMonster.toString());
+		makeUserMonster();
+		myOutput.displayMonsterInfo("New Monster info" + userMonster.toString());
 	}
 	
 	private void askQuestions()
