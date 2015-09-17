@@ -15,7 +15,7 @@ public class MarshmellowMonster
 		
 	}
 	
-	public MarshmellowMonster( String monsterName, int monsterEyes, int monsterNoses, double monsterHair, double monsterLegs, boolean monsterBellyButton)
+	public MarshmellowMonster(String monsterName, int monsterEyes, int monsterNoses, double monsterHair, double monsterLegs, boolean monsterBellyButton)
 	{
 		this.monsterName = monsterName;
 		this.monsterEyes = monsterEyes;
