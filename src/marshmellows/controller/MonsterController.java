@@ -28,9 +28,12 @@ public class MonsterController
 	
 	public void start()
 	{
-		myOutput.displayMonsterInfo(tristanMonster.toString());
-		makeUserMonster();
-		myOutput.displayMonsterInfo("New Monster info" + userMonster.toString());
+		myOutput.displayMonsterConsole(tristanMonster.toString());
+		myOutput.displayMonsterGUI(tristanMonster.toString());
+		myOutput.displayGUI(tristanMonster.toString());
+		myOutput.displayTristanGUI(tristanMonster.toString());
+		//makeUserMonster();
+		myOutput.displayMonsterGUI("New Monster info" + userMonster.toString());
 	}
 	
 	private void askQuestions()
@@ -110,15 +113,6 @@ public class MonsterController
 		
 		//Step three: Make a monster - use the Constructor!!
 		userMonster = new MarshmellowMonster(userName, userEyes, userNoseCount, userHair, userLegs, userBellyButton);
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 
